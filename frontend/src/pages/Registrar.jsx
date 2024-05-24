@@ -56,8 +56,7 @@ const Registrar = () => {
       );
       // const { data } = await axios.post('http://localhost:4000/api/usuarios',
       //   { nombre, email, password });
-
-      console.log(data);
+      // console.log(data);
       setAlerta({
         msg: data.msg,
         error: false,
